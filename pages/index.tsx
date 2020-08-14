@@ -1,10 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 
-
 import Header from '../components/Header';
 import Links from '../components/Links';
-import { Container } from './styles';
+import { Container } from '../visual/styles';
 import { getLinks } from '../logic/requests/links';
 
 interface Props {
